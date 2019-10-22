@@ -28,9 +28,11 @@ while True:
        # if count == 20:
        #     break
 
-#        cv2.waitKey(1)
-#        if cv2.waitKey(1) &0XFF == ord('x'):
-#          break
+       # k = cv2.waitKey(1)
+       # if k%256 == 27:
+       #    # ESC pressed
+       #    print("Escape hit, closing...")
+       #    break
 
 
     except KeyboardInterrupt:
